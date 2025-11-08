@@ -1,29 +1,27 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+*{
+  font-family:'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+#list{
+  width: 300px;
+  /*border: green solid 1px; */
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+#list li{
+  margin: 10px;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+#list button{
+  float: right;
+  background: transparent;
+  color: gray;
+  border: 0px;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+#list button:hover{
+  color: red;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+#list button:active{
+  color: darkred;
 }
